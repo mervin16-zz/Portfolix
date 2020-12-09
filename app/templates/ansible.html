@@ -1,0 +1,46 @@
+{% extends 'master.html' %}
+
+{% block title %}
+    Ansible Automation
+{% endblock %}
+
+{% block meta %}
+    <meta content="Ansible Automation is a simple tool containing several automated tasks for different platforms. Availability for each platforms are listed in the linked Github Repository. This tools can autoamted tasks such as, pushing configuration on a router, firewalls or servers etc... For more information please visit the Github Repository." name="description">
+    <meta content="Ansible Automation Mervin Hemaraju" name="keywords">
+{% endblock %}
+
+{% block body %}
+<main id="main">
+
+    <!-- ======= Portfolio Details ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8">
+            <h2 class="portfolio-title">Ansible Automation</h2>
+            <div class="owl-carousel portfolio-details-carousel">
+              <img src="{{ url_for('static', filename='img/portfolio/ansible.png') }}" class="img-fluid" alt="Ansible Banner">
+            </div>
+          </div>
+
+          <div class="col-lg-4 portfolio-info">
+            <h3>Project information</h3>
+            <ul>
+              <li><strong>Category</strong>: Python</li>
+              <li><strong>Project URL</strong>: <a href="https://github.com/mervin16/Ansible-Automation" target='_blank'>GitHub</a></li>
+            </ul>
+
+            <p>
+            Ansible Automation is a simple tool containing several automated tasks for different platforms. Availability for each platforms are listed in the linked Github Repository. This tools can autoamted tasks such as, pushing configuration on a router, firewalls or servers etc... For more information please visit the Github Repository.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details -->
+
+  </main><!-- End #main -->
+{% endblock %}
