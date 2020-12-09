@@ -1,0 +1,52 @@
+{% extends 'master.html' %}
+
+{% block title %}
+    Fortweet
+{% endblock %}
+
+{% block meta %}
+    <meta content="The Fortweet project consists of a Dynamic Web App and a Static API which capture live tweets of Twitter, for a certain amount of time, about the online Battle Royale game Fortnite" name="description">
+    <meta content="Fortweet Mervin Hemaraju" name="keywords">
+{% endblock %}
+
+
+{% block body %}
+
+<main id="main">
+
+    <!-- ======= Portfolio Details ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8">
+            <h2 class="portfolio-title">Fortweet</h2>
+            <div class="owl-carousel portfolio-details-carousel">
+              <img src="{{ url_for('static', filename='img/portfolio/fortweet.webp') }}" class="img-fluid" alt="FOrtweet Banner">
+            </div>
+          </div>
+
+          <div class="col-lg-4 portfolio-info">
+            <h3>Project information</h3>
+            <ul>
+              <li><strong>Category</strong>: Python & Flask App</li>
+              <li><strong>Project URL</strong>: 
+              <a href="https://fortweet.th3pl4gu3.com/web/live" target='_blank'>Official Website</a> | 
+              <a href="https://github.com/mervin16/Fortweet" target='_blank'>GitHub</a></li>
+            </ul>
+
+            <p>
+              The Fortweet project consists of a Dynamic Web App and a Static API which capture live tweets of Twitter, 
+              for a certain amount of time, about the online Battle Royale game Fortnite
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details -->
+
+  </main><!-- End #main -->
+
+{% endblock %}
