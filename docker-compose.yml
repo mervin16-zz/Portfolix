@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  th3pl4gu3:
+    container_name: portfolix
+    build: ./
+    networks:
+      - portfolix_net
+    ports:
+      - 8084:8084
+    restart: always
+
+networks:
+  portfolix_net:
+    name: portfolix_network
+    driver: bridge

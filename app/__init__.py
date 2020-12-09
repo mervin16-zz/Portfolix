@@ -12,3 +12,8 @@ app = Flask(
 # Register Blueprints
 app.register_blueprint(resume_bprint.resume, url_prefix="/resume")
 
+
+# Error 404 Handler
+@app.errorhandler(404)
+def page_not_found(e):
+    return HTML("404.html")

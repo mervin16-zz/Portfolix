@@ -1185,3 +1185,26 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.text-404 {
+  font-size: 150px;
+  font-weight: 900;
+  letter-spacing: 25px;
+  margin: 10px 0 0 0;
+}
+
+.btn-outline {
+  border: 2px solid #1f1f1f;
+  color: #1f1f1f;
+  padding: 12px 40px;
+  border-radius: 25px;
+  margin-top: 25px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.btn-outline:hover {
+  color: #0563bb;
+  border: 2px solid #0563bb;
+  background: #fff;
+}

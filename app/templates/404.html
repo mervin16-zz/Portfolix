@@ -1,0 +1,43 @@
+{% extends 'master.html' %}
+
+{% block title %}
+    Error 404
+{% endblock %}
+
+{% block meta %}
+    <meta content="Error 404" name="description">
+    <meta content="Error 404" name="keywords">
+{% endblock %}
+
+
+{% block body %}
+
+	<!-- ======= Section ======= -->
+	<section id="footer">
+		<div class="container">
+		  <h3>Mervin Hemaraju</h3>
+		  <p>Network &amp; DevOps Administrator</p>
+
+			<h1 class="text-404"><span>404</span></h1>
+
+			<h6>Oops! The Page you requested was not found!</h6>
+
+			<a href="{{ url_for('resume.index')}}" class="btn-outline mb-5"> Back to Home</a>
+
+		  <div class="social-links">
+		  <a href="https://www.facebook.com/mervin16/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+			<a href="https://github.com/mervin16" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+			<a href="https://play.google.com/store/apps/dev?id=5236150593519379806" target="_blank" class="play-store"><i class="bx bxl-play-store"></i></a>
+			<a href="https://www.linkedin.com/in/mervin-hemaraju-584239126/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+		  </div>
+		  <div class="copyright">
+			&copy; Copyright <strong><span>Mervin Hemaraju</span></strong>. All Rights Reserved
+		  </div>
+		  <div class="credits">
+			Made possible thanks to <a href="http://zanbalak.com/" target="_blank">Zanbalak</a>
+		  </div>
+		</div>
+	  </section><!-- End Footer -->
+
+   </div>
+{% endblock %}
