@@ -1,12 +1,12 @@
 {% extends 'master.html' %}
 
 {% block title %}
-    Fortweet
+Fortweet
 {% endblock %}
 
 {% block meta %}
-    <meta content="Fortweet Python" name="description">
-    <meta content="Fortweet Python Flask API" name="keywords">
+<meta content="The Fortweet Project" name="description">
+<meta content="Fortweet Python Flask API" name="keywords">
 {% endblock %}
 
 
@@ -14,40 +14,42 @@
 
 <main id="main">
 
-    <!-- ======= Portfolio Details ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container" data-aos="fade-up">
+  <!-- ======= Portfolio Details ======= -->
+  <section id="portfolio-details" class="portfolio-details">
+    <div class="container" data-aos="fade-up">
 
-        <div class="row">
+      <div class="row">
 
-          <div class="col-lg-8">
-            <h2 class="portfolio-title">Fortweet</h2>
-            <div class="owl-carousel portfolio-details-carousel">
-              <img src="{{ url_for('static', filename='img/portfolio/fortweet.webp') }}" class="img-fluid" alt="Fortweet Banner">
-              <img src="{{ url_for('static', filename='img/portfolio/python.webp') }}" class="img-fluid" alt="Python Logo">
-            </div>
+        <div class="col-lg-8">
+          <h2 class="portfolio-title">Fortweet</h2>
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="{{ url_for('static', filename='img/portfolio/fortweet.webp') }}" class="img-fluid"
+              alt="Fortweet Banner">
+            <img src="{{ url_for('static', filename='img/portfolio/python.webp') }}" class="img-fluid"
+              alt="Python Logo">
           </div>
+        </div>
 
-          <div class="col-lg-4 portfolio-info">
-            <h3>Project information</h3>
-            <ul>
-              <li><strong>Category</strong>: Python, Flask, API</li>
-              <li><strong>Project URL</strong>: 
+        <div class="col-lg-4 portfolio-info">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category</strong>: Python, Flask, API</li>
+            <li><strong>Project URL</strong>:
               <a href="https://github.com/mervin16/Fortweet" target='_blank'>GitHub Repo</a></li>
-            </ul>
+          </ul>
 
-            <p>
-              Fortweet consists of a Web App and a Static API which capture live tweets of Twitter, 
-              for a certain amount of time, about the online Battle Royale game Fortnite. 
-              <strong>This project is still under construction.</strong>
-            </p>
-          </div>
-
+          <p>
+            Fortweet consists of a Web App and a Static API which capture live tweets of Twitter,
+            for a certain amount of time, about the online Battle Royale game Fortnite.
+            <strong>This project is still under construction.</strong>
+          </p>
         </div>
 
       </div>
-    </section><!-- End Portfolio Details -->
 
-  </main><!-- End #main -->
+    </div>
+  </section><!-- End Portfolio Details -->
+
+</main><!-- End #main -->
 
 {% endblock %}

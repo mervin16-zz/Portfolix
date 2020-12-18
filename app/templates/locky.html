@@ -1,12 +1,12 @@
 {% extends 'master.html' %}
 
 {% block title %}
-    Locky Password Manager
+Locky Password Manager
 {% endblock %}
 
 {% block meta %}
-    <meta content="Locky password manager" name="description">
-    <meta content="Locky Password Manager Mervin Hemaraju" name="keywords">
+<meta content="Locky password manager" name="description">
+<meta content="Locky Password Manager Mervin Hemaraju Android App" name="keywords">
 {% endblock %}
 
 
@@ -14,44 +14,48 @@
 
 <main id="main">
 
-    <!-- ======= Portfolio Details ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container" data-aos="fade-up">
+  <!-- ======= Portfolio Details ======= -->
+  <section id="portfolio-details" class="portfolio-details">
+    <div class="container" data-aos="fade-up">
 
-        <div class="row">
+      <div class="row">
 
-          <div class="col-lg-8">
-            <h2 class="portfolio-title">Locky Password Manager</h2>
-            <div class="owl-carousel portfolio-details-carousel">
-              <img src="{{ url_for('static', filename='img/portfolio/locky.webp') }}" class="img-fluid" alt="Locky Banner">
-              <img src="{{ url_for('static', filename='img/portfolio/locky2.webp') }}" class="img-fluid" alt="Locky Logo">
-              <img src="{{ url_for('static', filename='img/portfolio/android.webp') }}" class="img-fluid" alt="Android Logo">
-            </div>
+        <div class="col-lg-8">
+          <h2 class="portfolio-title">Locky Password Manager</h2>
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="{{ url_for('static', filename='img/portfolio/locky.webp') }}" class="img-fluid"
+              alt="Locky Banner">
+            <img src="{{ url_for('static', filename='img/portfolio/locky2.webp') }}" class="img-fluid" alt="Locky Logo">
+            <img src="{{ url_for('static', filename='img/portfolio/android.webp') }}" class="img-fluid"
+              alt="Android Logo">
           </div>
+        </div>
 
-          <div class="col-lg-4 portfolio-info">
-            <h3>Project information</h3>
-            <ul>
-              <li><strong>Category</strong>: Android App</li>
-              <li><strong>Project URL</strong>: 
-              <a href="https://play.google.com/store/apps/details?id=com.th3pl4gu3.locky_offline" target='_blank'>Google Play</a> | 
-              <a href="https://th3pl4gu3.wixsite.com/locky" target='_blank'>Official Website</a> | 
+        <div class="col-lg-4 portfolio-info">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category</strong>: Android App</li>
+            <li><strong>Project URL</strong>:
+              <a href="https://play.google.com/store/apps/details?id=com.th3pl4gu3.locky_offline" target='_blank'>Google
+                Play</a> |
+              <a href="https://th3pl4gu3.wixsite.com/locky" target='_blank'>Official Website</a> |
               <a href="https://github.com/mervin16/Locky-Offline" target='_blank'>GitHub Repo</a></li>
-            </ul>
+          </ul>
 
-            <p>
-              Locky is an easy to use password manager developed in native Android & Kotlin with minimalist components 
-              and that adheres to the material design concept. 
-              It is time to stop writing passwords on papers or use short unsafe passwords just for the sake of remembering it. 
-              You can save any passwords,bank cards and much more offline on your own phone.
-            </p>
-          </div>
-
+          <p>
+            Locky is an easy to use password manager developed in native Android & Kotlin with minimalist components
+            and that adheres to the material design concept.
+            It is time to stop writing passwords on papers or use short unsafe passwords just for the sake of
+            remembering it.
+            You can save any passwords,bank cards and much more offline on your own phone.
+          </p>
         </div>
 
       </div>
-    </section><!-- End Portfolio Details -->
 
-  </main><!-- End #main -->
+    </div>
+  </section><!-- End Portfolio Details -->
+
+</main><!-- End #main -->
 
 {% endblock %}

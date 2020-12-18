@@ -1,49 +1,51 @@
 {% extends 'master.html' %}
 
 {% block title %}
-    Ansible Automation
+Ansible Automation
 {% endblock %}
 
 {% block meta %}
-    <meta content="Ansible Automation" name="description">
-    <meta content="Ansible Automation Mervin Hemaraju" name="keywords">
+<meta content="My Ansible Automation Project" name="description">
+<meta content="Ansible Automation Mervin Hemaraju Python" name="keywords">
 {% endblock %}
 
 {% block body %}
 <main id="main">
 
-    <!-- ======= Portfolio Details ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container" data-aos="fade-up">
+  <!-- ======= Portfolio Details ======= -->
+  <section id="portfolio-details" class="portfolio-details">
+    <div class="container" data-aos="fade-up">
 
-        <div class="row">
+      <div class="row">
 
-          <div class="col-lg-8">
-            <h2 class="portfolio-title">Ansible Automation</h2>
-            <div class="owl-carousel portfolio-details-carousel">
-              <img src="{{ url_for('static', filename='img/portfolio/ansible.webp') }}" class="img-fluid" alt="Ansible Banner">
-            </div>
+        <div class="col-lg-8">
+          <h2 class="portfolio-title">Ansible Automation</h2>
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="{{ url_for('static', filename='img/portfolio/ansible.webp') }}" class="img-fluid"
+              alt="Ansible Banner">
           </div>
+        </div>
 
-          <div class="col-lg-4 portfolio-info">
-            <h3>Project information</h3>
-            <ul>
-              <li><strong>Category</strong>: Network Automation</li>
-              <li><strong>Project URL</strong>: <a href="https://github.com/mervin16/Ansible-Automation" target='_blank'>GitHub Repo</a></li>
-            </ul>
+        <div class="col-lg-4 portfolio-info">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category</strong>: Network Automation</li>
+            <li><strong>Project URL</strong>: <a href="https://github.com/mervin16/Ansible-Automation"
+                target='_blank'>GitHub Repo</a></li>
+          </ul>
 
-            <p>
-              Ansible Automation is a simple tool containing several automated tasks for different platforms. 
-              Availability for each platforms are listed in the linked Github Repository. 
-              This tool can automate tasks such as pushing configuration on a router, firewalls or servers etc... 
-              For more information please visit the linked Github Repository.
-            </p>
-          </div>
-
+          <p>
+            Ansible Automation is a simple tool containing several automated tasks for different platforms.
+            Availability for each platforms are listed in the linked Github Repository.
+            This tool can automate tasks such as pushing configuration on a router, firewalls or servers etc...
+            For more information please visit the linked Github Repository.
+          </p>
         </div>
 
       </div>
-    </section><!-- End Portfolio Details -->
 
-  </main><!-- End #main -->
+    </div>
+  </section><!-- End Portfolio Details -->
+
+</main><!-- End #main -->
 {% endblock %}
