@@ -3,7 +3,7 @@ version: "3.8"
 services:
   portfolix:
     container_name: portfolix
-    image: mervin16/portfolix:dev
+    image: docker.pkg.github.com/mervin16/portfolix/portfolix:1.2.1
     build: ./
     env_file:
       - config_local.env

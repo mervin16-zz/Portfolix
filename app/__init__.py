@@ -54,11 +54,11 @@ def send_email():
 
         msg = Message(
             request.form["message"],
-            sender=sender_email,
+            sender=(request.form["name"], sender_email),
             recipients=os.environ["MAIL_RECIPIENTS"].split(","),
         )
         msg.body = request.form["message"]
-        msg.subject = f"{request.form['name']} :: {request.form['subject']}"
+        msg.subject = f"{sender_email} :: {request.form['subject']}"
         mail.send(msg)
     except Exception as e:
         return (
