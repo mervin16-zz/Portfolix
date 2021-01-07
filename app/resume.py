@@ -55,3 +55,8 @@ def fortweet():
 @resume.route("/th3pl4gu3")
 def th3pl4gu3():
     return HTML("th3pl4gu3.html")
+
+
+@resume.route("/prometheus")
+def prometheus():
+    return HTML("prometheus.html")

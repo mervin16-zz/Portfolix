@@ -4,4 +4,6 @@ Portfolix is my online Portfolio / Resume website. The website was written in Fl
 
 I've added the code to my GitHub repo so that anyone can have a look at it.
 
-Take a look at the live version here [mervin-hemaraju](https://mervin-hemaraju.com).
+Portfolix has currently been deployed on [Prometheus](https://github.com/mervin16/Prometheus)
+
+Take a look at the live version [here](https://mervin-hemaraju.com).

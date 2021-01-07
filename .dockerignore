@@ -10,3 +10,6 @@ Procfile
 
 # VS Code
 .vscode/
+
+# Git Files
+**/.git
